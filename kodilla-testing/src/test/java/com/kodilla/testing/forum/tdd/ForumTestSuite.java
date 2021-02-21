@@ -27,7 +27,7 @@ class ForumTestSuite {
         System.out.println("Preparing to execute test #" + testCounter);
     }
     @Nested
-    @DisplayName("Test for posts")
+    @DisplayName("Test for postssgit")
     class TestPosts {
         @Test
         void testAddPost() {
