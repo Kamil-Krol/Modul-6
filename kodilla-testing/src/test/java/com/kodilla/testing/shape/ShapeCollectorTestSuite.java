@@ -18,13 +18,11 @@ public class ShapeCollectorTestSuite {
     {
         //Given
         Circle circle = new Circle();
-        List<Shape> list = new ArrayList<>();
-        list.add(circle);
-        ShapeCollector shapeCollector = new ShapeCollector(list);
+        ShapeCollector shapeCollector = new ShapeCollector();
         //When
         shapeCollector.addFigure(circle);
         //Then
-        Assertions.assertEquals(circle, shapeCollector.addFigure(circle));
+        Assertions.assertEquals(circle, shapeCollector.getFigure(0));
     }
 
     @Test
@@ -32,13 +30,12 @@ public class ShapeCollectorTestSuite {
     {
         //Given
         Circle circle = new Circle();
-        List<Shape> list = new ArrayList<>();
-        list.add(circle);
-        ShapeCollector shapeCollector = new ShapeCollector(list);
+        ShapeCollector shapeCollector = new ShapeCollector();
+        shapeCollector.addFigure(circle);
         //When
         shapeCollector.removeFigure(circle);
         //Then
-        Assertions.assertNotEquals(circle, shapeCollector.removeFigure(circle));
+        Assertions.assertEquals(0,shapeCollector.getSizeOfTheList());
     }
 
     @Test
@@ -46,13 +43,12 @@ public class ShapeCollectorTestSuite {
     {
         //Given
         Circle circle = new Circle();
-        List<Shape> list = new ArrayList<>();
-        list.add(circle);
-        ShapeCollector shapeCollector = new ShapeCollector(list);
+        ShapeCollector shapeCollector = new ShapeCollector();
+        shapeCollector.addFigure(circle);
         //When
-        shapeCollector.getFigure(5);
+        shapeCollector.getFigure(0);
         //Then
-        Assertions.assertEquals(circle, shapeCollector.getFigure(5));
+        Assertions.assertEquals(circle, shapeCollector.getFigure(0));
     }
 
     @Test
@@ -60,13 +56,12 @@ public class ShapeCollectorTestSuite {
     {
         //Given
         Circle circle = new Circle();
-        List<Shape> list = new ArrayList<>();
-        list.add(circle);
-        ShapeCollector shapeCollector = new ShapeCollector(list);
+        ShapeCollector shapeCollector = new ShapeCollector();
+        shapeCollector.addFigure(circle);
         //When
         shapeCollector.showFigures();
         //Then
-        Assertions.assertEquals(list, shapeCollector.showFigures());
+        Assertions.assertEquals(circle, shapeCollector.showFigures());
     }
 
 }

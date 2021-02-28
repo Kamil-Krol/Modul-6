@@ -4,6 +4,7 @@ class Triangle implements Shape
 {
     public Shape getShapeName()
     {
+        System.out.println("Triangle");
         return null;
     }
 
