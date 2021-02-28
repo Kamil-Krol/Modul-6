@@ -1,6 +1,6 @@
 package com.kodilla.testing.collection;
 
-import org.junit.Test;
+
 
 import com.kodilla.testing.collection.OddNumbersExterminator;
 import org.junit.jupiter.api.*;
