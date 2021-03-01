@@ -76,6 +76,8 @@ public class WeatherForecastTestSuite {
         WeatherForecast weatherForecast = new WeatherForecast(temperaturesMock);
 
 
+
+
         //When
        double medianTemperature = weatherForecast.calculateMedianTemperature();     // [12]
 
