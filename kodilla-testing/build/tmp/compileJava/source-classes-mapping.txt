@@ -1,0 +1,12 @@
+com/kodilla/testing/user/SimpleUser.java
+ com.kodilla.testing.user.SimpleUser
+com/kodilla/testing/weather/stub/Temperatures.java
+ com.kodilla.testing.weather.stub.Temperatures
+com/kodilla/testing/TestingMain.java
+ com.kodilla.testing.TestingMain
+com/kodilla/testing/calculator/Calculator.java
+ com.kodilla.testing.calculator.Calculator
+com/kodilla/testing/collection/OddNumbersExterminator.java
+ com.kodilla.testing.collection.OddNumbersExterminator
+com/kodilla/testing/weather/stub/WeatherForecast.java
+ com.kodilla.testing.weather.stub.WeatherForecast

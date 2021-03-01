@@ -1,0 +1,10 @@
+com/kodilla/testing/forum/ForumTestSuite.java
+ com.kodilla.testing.forum.ForumTestSuite
+com/kodilla/testing/weather/stub/TemperaturesStub.java
+ com.kodilla.testing.weather.stub.TemperaturesStub
+com/kodilla/testing/collection/CollectionTestSuite.java
+ com.kodilla.testing.collection.CollectionTestSuite
+com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java
+ com.kodilla.testing.weather.stub.WeatherForecastTestSuite
+com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java
+ com.kodilla.testing.weather.mock.WeatherForecastTestSuite
