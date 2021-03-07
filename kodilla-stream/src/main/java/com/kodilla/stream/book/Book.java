@@ -36,7 +36,7 @@ public final class Book {
         return "Book{" +
                 "author='" + author + '\'' +
                 ", title='" + title + '\'' +
-                ", yearOfPublication=" + yearOfPublication +
+                ", yearOfPublication= " + yearOfPublication +
                 ", signature='" + signature + '\'' +
                 '}';
     }
