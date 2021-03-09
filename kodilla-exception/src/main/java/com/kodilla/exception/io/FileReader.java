@@ -10,17 +10,16 @@ import java.util.stream.Stream;
 public class FileReader {
 
     public void readFile() {
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource("names.txt").getFile());
-        Path path = Paths.get(file.getPath());
+            ClassLoader classLoader = getClass().getClassLoader();
+            File file = new File(classLoader.getResource("names.txt").getFile());
+            Path path = Paths.get(file.getPath());
 
-        try {
-            Stream<String> fileLines = Files.lines(path);
-            fileLines.forEach(System.out::println);
-        } catch (IOException e) {
-            System.out.println("Błąd odczytu pliku");
+            try {
+                Stream<String> fileLines = Files.lines(path);
+            } catch (IOException e) {
+                System.out.println("Błąd odczytu pliku");
+            }
+
+            System.out.println(file.getPath());
         }
-
-        System.out.println(file.getPath());
     }
-}
