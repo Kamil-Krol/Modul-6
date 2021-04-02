@@ -3,4 +3,5 @@ include 'kodilla-stream'
 include 'kodilla_usun'
 include 'kodilla-exception'
 include 'kodilla-projekt1-modul9'
+include 'kodilla-good-patterns'
 
