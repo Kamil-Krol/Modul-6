@@ -5,5 +5,6 @@ include 'kodilla-exception'
 include 'kodilla-projekt1-modul9'
 include 'kodilla-good-patterns'
 include 'kodilla-spring-intro'
+include 'kodilla-spring'
 
 
