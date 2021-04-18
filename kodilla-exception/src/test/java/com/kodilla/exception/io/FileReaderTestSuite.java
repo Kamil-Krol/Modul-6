@@ -1,10 +1,12 @@
 package com.kodilla.exception.io;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 public class FileReaderTestSuite {
+    @Disabled
     @Test
     void testReadFile() {
         // given
