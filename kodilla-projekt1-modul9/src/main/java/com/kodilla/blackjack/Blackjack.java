@@ -41,7 +41,7 @@ public class Blackjack extends Application {
 
         Scene scene = new Scene(grid, 1600, 900, Color.BLACK);
 
-        primaryStage.setTitle("BlackJack");
+        primaryStage.setTitle("Black Jack");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
