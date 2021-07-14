@@ -6,7 +6,7 @@ import java.util.List;
 public class OddNumbersExterminator {
 
     private List<Integer> numbers= new LinkedList<>();
-    List<Integer> evenList = new LinkedList<>();
+
 
     public OddNumbersExterminator(List<Integer> numbers) {
         this.numbers = numbers;
@@ -14,6 +14,7 @@ public class OddNumbersExterminator {
 
     public List<Integer> exterminate(List<Integer> numbers)
     {
+        List<Integer> evenList = new LinkedList<>();
         for (Integer list : numbers)
         {
 

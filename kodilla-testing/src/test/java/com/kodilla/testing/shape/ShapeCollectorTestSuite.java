@@ -13,6 +13,8 @@ import java.util.List;
 @DisplayName("Test for shape collector")
 public class ShapeCollectorTestSuite {
 
+
+
     @Test
     void testAddFigure()
     {

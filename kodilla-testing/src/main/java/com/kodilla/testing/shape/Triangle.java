@@ -2,10 +2,11 @@ package com.kodilla.testing.shape;
 
 class Triangle implements Shape
 {
-    public Shape getShapeName()
+    public String getShapeName()
     {
         System.out.println("Triangle");
-        return null;
+        String name = "Triangle";
+        return name;
     }
 
 
